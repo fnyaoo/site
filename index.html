@@ -6,23 +6,26 @@
 		<link rel="shortcut icon" href="black.ico" type="image/png">
 		
 		<style>
-			.video {
- height: 0;
- position: relative;
- 
-}
-.video iframe {
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- height: 100%;
-}
+			..myvideo {
+			position:relative;
+			padding-bottom:56.25%;
+			padding-top:30px;
+			height:0;
+			overflow:hidden;
+			border:1px solid #ccc;
+			}
+			.myvideo iframe,.myvideo object,.myvideo embed {
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			}
 		</style>
 	</head>
 	<body>
-	<div class="video">
-		<iframe class="embed-responsive-item" src="http://vladimirkhil.com/si/online" allowfullscreen></iframe>
+	<div class="myvideo">
+		<iframe width="560" height="315" src="http://vladimirkhil.com/si/online" frameborder="0" allowfullscreen></iframe>
 	</div>
 
 	</body>

@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} http://fnyaoo.tk/
-RewriteRule (.*) http://vladimirkhil.com/si/online/$1 [R=301,L]

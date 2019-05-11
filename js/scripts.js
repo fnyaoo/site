@@ -1,1 +1,0 @@
-$(function() {	$('#thumbs').superbgimage();});

@@ -1,3 +1,3 @@
 # site
 
- fnyaoo.cf
+https://fnyaoo.github.io/site/

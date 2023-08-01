@@ -4,7 +4,7 @@ html {
     background-color: black;
     min-height: 100%;
     background-size: cover;
-    background-image: url(/src/assets/images/b2.jpg);
+    /* background-image: url(./src/assets/images/b2.jpg); */
     background-repeat: no-repeat;
     background-position: center bottom;
     overflow: hidden;
